@@ -1,0 +1,122 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1rem;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Merriweather', garamond, serif;
+}
+
+p {
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+
+/* profile image */
+.img1, .img2 {
+  padding: 1rem 2rem 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.img1 {
+  border-right: .5px solid #e9ecef;
+}
+
+.img2 {
+  border-left: .5px solid #e9ecef;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  display: block;
+}
+
+/* profile info */
+.msg1, .msg2 {
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 1rem;
+  margin-bottom: 0;
+  background-color: #e9ecef;
+  border-radius: 0;
+}
+
+.info {
+  text-align: center;
+}
+
+.info p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.left {
+  border-right: .5px solid white;
+}
+
+.right {
+  border-left: .5px solid white;
+}
+
+#name1, #name2 {
+  font-family: 'Libre Caslon Text', garamond, serif;
+  font-size: .9rem;
+  font-weight: bolder;
+}
+
+/* play button */
+.next {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  font-style: italic;
+  font-family: 'Roboto', helvetica, sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+/* temporary classes */
+.results {
+  background-color: rgb(121, 215, 15);
+  background-color: rgba(121, 215, 15, 0.5);
+  width: 100%;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+/* responsive */
+@media screen and (min-width:500px) {
+  body {
+    width: 600px;
+    margin: auto;
+  }
+
+  .col-xl-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,113 @@
+[{
+    "name": "Abdulsamad Rabiu",
+    "image_url": "./images/AbdulsamadRabiu.jpg",
+    "wealth_source": ["cement", "sugar"],
+    "networth": "5.3",
+    "position": "#3"
+  },
+  {
+    "name": "Aliko Dangote",
+    "image_url": "./images/AlikoDangote.jpg",
+    "wealth_source": ["cement", "sugar", "flour"],
+    "networth": "12.1",
+    "position": "#1"
+  },
+  {
+    "name": "David Stewart",
+    "image_url": "./images/DavidStewart.jpg",
+    "wealth_source": ["tech"],
+    "networth": "3.7",
+    "position": "#5"
+  },
+  {
+    "name": "Folorunsho Alakija",
+    "image_url": "./images/FolorunshoAlakija.jpg",
+    "wealth_source": ["oil"],
+    "networth": "1",
+    "position": "#14"
+  },
+  {
+    "name": "Isabel Dos Santos",
+    "image_url": "./images/IsabelDosSantos.jpg",
+    "wealth_source": ["investments"],
+    "networth": "1.4",
+    "position": "#11"
+  },
+  {
+    "name": "Jay-Z",
+    "image_url": "./images/Jay-Z.jpg",
+    "wealth_source": ["entertainment", "alcohol"],
+    "networth": "1",
+    "position": "#14"
+  },
+  {
+    "name": "Michael Jordan",
+    "image_url": "./images/MichaelJordan.jpg",
+    "wealth_source": ["basketball"],
+    "networth": "1.6",
+    "position": "#8"
+  },
+  {
+    "name": "Michael Lee-Chin",
+    "image_url": "./images/MichaelLee-Chin.jpg",
+    "wealth_source": ["investments"],
+    "networth": "1.5",
+    "position": "#9"
+  },
+  {
+    "name": "Mike Adenuga",
+    "image_url": "./images/MikeAdenuga.jpg",
+    "wealth_source": ["oil", "telecoms"],
+    "networth": "6.2",
+    "position": "#2"
+  },
+  {
+    "name": "Mohammed Ibrahim",
+    "image_url": "./images/MohammedIbrahim.jpg",
+    "wealth_source": ["investments", "telecoms"],
+    "networth": "1.1",
+    "position": "#12"
+  },
+  {
+    "name": "Nyatefe Gavivina",
+    "image_url": "./images/NyatefeGavivina.jpg",
+    "wealth_source": ["tech", "agric"],
+    "networth": "1.1",
+    "position": "#12"
+  },
+  {
+    "name": "Oprah Winfrey",
+    "image_url": "./images/OprahWinfrey.jpg",
+    "wealth_source": ["television"],
+    "networth": "2.6",
+    "position": "#7"
+  },
+  {
+    "name": "Patrick Motsepe",
+    "image_url": "./images/PatrickMotsepe.jpg",
+    "wealth_source": ["mining"],
+    "networth": "3",
+    "position": "#6"
+  },
+  {
+    "name": "Robert F. Smith",
+    "image_url": "./images/RobertFSmith.jpg",
+    "wealth_source": ["private equity"],
+    "networth": "5.2",
+    "position": "#4"
+  },
+  {
+    "name": "Strive Masiyiwa",
+    "image_url": "./images/StriveMasiyiwa.jpg",
+    "wealth_source": ["telecoms"],
+    "networth": "1.5",
+    "position": "#9"
+  },
+  {
+    "name": "Tyler Perry",
+    "image_url": "./images/TylerPerry.jpg",
+    "wealth_source": ["film", "television"],
+    "networth": "1",
+    "position": "#14"
+  }
+]

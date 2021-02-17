@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moolah game</title>
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&family=Libre+Caslon+Text:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div>
+      <header>
+        <h1>African Billionaires</h1>
+        <p>Click "Play" to see what they do and who's richer</p>
+      </header>
+
+      <!-- profiles -->
+      <div class="row">
+
+        <!-- profile1 -->
+        <div class="col-6">
+          <div class="profile1 row">
+            <div class="img1 col-xl-6">
+              <img id="image_url1" src="./images/AlikoDangote.jpg" alt="Aliko Dangote">
+              <div id="profile1" style="height: 1.2rem">
+                <div id="msg1" class="msg1"></div>
+              </div>
+            </div>
+            <div class="info jumbotron col-xl-6 left">
+              <p id="name1">#1 Aliko Dangote</p>
+              <p id="wealth_source1">cement,sugar,flour</p>
+              <p id="networth1">US$12.1bn</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- profile2 -->
+        <div class="col-6">
+          <div class="profile2 row">
+            <div class="img2 col-xl-6">
+              <img id="image_url2" src="./images/NyatefeGavivina.jpg" alt="Nyatefe Gavivina">
+              <div id="profile2" style="height: 1.2rem">
+                <div id="msg2" class="msg2"></div>
+              </div>
+            </div>
+            <div class="info jumbotron col-xl-6 right">
+              <p id="name2">#12 Nyatefe Gavivina</p>
+              <p id="wealth_source2">tech,agric</p>
+              <p id="networth2">US$1.1bn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- play button -->
+      <div class="next">
+        <button class="btn btn-lg btn-success" type="button" name="button" onclick="loadNext()">Play</button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>Gavivina &copy;2021. All rights reserved</footer>
+
+  <!-- game script -->
+  <script type="text/javascript" src="./js/index.js">
+
+  </script>
+</body>
+
+</html>
