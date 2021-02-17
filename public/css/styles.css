@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Roboto', helvetica, sans-serif;
 }
 
 header {
@@ -17,10 +18,6 @@ header p {
 
 h1 {
   font-family: 'Merriweather', garamond, serif;
-}
-
-p {
-  font-family: 'Roboto', helvetica, sans-serif;
 }
 
 /* profile image */
@@ -48,7 +45,6 @@ img {
 /* profile info */
 .msg1, .msg2 {
   color: black;
-  font-family: cursive;
   font-weight: bolder;
   font-size: .8rem;
   text-align: center;
@@ -66,7 +62,7 @@ img {
 }
 
 .info p {
-  font-size: 1rem;
+  font-size: .9rem;
   margin-bottom: 0;
 }
 
